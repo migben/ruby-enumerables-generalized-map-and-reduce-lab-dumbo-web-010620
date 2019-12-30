@@ -25,6 +25,7 @@ def reduce(arr, start = nil)
     
     acc =  yield(acc, arr[i])
     idx += 1
+    
   end
   
   return acc
