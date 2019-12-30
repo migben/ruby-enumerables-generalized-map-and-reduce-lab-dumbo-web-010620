@@ -11,4 +11,4 @@ def map(arr)
   
 end
 
-def reduce( )
+def reduce(arr, start=)
