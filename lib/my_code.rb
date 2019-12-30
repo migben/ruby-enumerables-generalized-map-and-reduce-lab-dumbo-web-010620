@@ -3,8 +3,8 @@ def map(arr)
   
   result = []
   
-  arr.each {
-    
+  arr.each { |ele|
+    result.push(yield)
   }
   
 end
