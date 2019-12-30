@@ -17,7 +17,9 @@ def reduce(arr, start = nil)
     acc = start
     i = 0
   else
-    acc = start[0]
+    acc = arr[0]
+    i = 1
+  end
   
   return acc
   
