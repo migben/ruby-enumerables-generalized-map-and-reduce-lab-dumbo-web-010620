@@ -15,13 +15,13 @@ def reduce(arr, start = nil)
   if start
     
     acc = start
-    i = 0
+    idx = 0
   else
     acc = arr[0]
-    i = 1
+    idx = 1
   end
   
-  while i < 
+  while idx < arr
   
   return acc
   
