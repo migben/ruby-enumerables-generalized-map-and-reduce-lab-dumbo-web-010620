@@ -23,7 +23,7 @@ def reduce(arr, start = nil)
   
   while idx < arr.length
   
-  
+  acc =  
   
   end
   
