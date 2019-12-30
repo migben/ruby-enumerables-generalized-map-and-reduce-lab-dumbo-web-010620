@@ -10,3 +10,5 @@ def map(arr)
   return result
   
 end
+
+def reduce( )
