@@ -7,4 +7,6 @@ def map(arr)
     result.push(yield)
   }
   
+  return result
+  
 end
