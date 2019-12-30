@@ -21,6 +21,8 @@ def reduce(arr, start = nil)
     i = 1
   end
   
+  
+  
   return acc
   
 end
