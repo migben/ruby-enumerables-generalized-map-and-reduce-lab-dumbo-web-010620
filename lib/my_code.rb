@@ -11,14 +11,10 @@ def map(arr)
   
 end
 
-def reduce(arr, start = 0)
-  acc = start
-  
-  start != false ? acc = start : acc = arr[0]
-  
-  arr.each {|ele|
-    acc = yield(acc, ele)
-  }
+def reduce(arr, start = nil)
+  if start
+    
+    
   
   return acc
   
