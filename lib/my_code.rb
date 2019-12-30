@@ -15,7 +15,7 @@ def reduce(arr, start = 0)
   acc = start
   
   arr.each {|ele|
-    acc = yield()
+    acc = yield(acc, )
   }
   
   
