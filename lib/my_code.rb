@@ -18,6 +18,6 @@ def reduce(arr, start = 0)
     acc = yield(acc, ele)
   }
   
-  
+  return acc
   
 end
