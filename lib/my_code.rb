@@ -22,9 +22,9 @@ def reduce(arr, start = nil)
   end
   
   while idx < arr.length
-  
-  acc =  yield(acc, arr[i])
-  idx += 1
+    
+    acc =  yield(acc, arr[i])
+    idx += 1
   end
   
   return acc
