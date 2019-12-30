@@ -4,7 +4,7 @@ def map(arr)
   result = []
   
   arr.each { |ele|
-    result.push(yield)
+    result.push(yield(ele))
   }
   
   return result
