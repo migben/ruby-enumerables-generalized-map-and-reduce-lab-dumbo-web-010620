@@ -14,7 +14,10 @@ end
 def reduce(arr, start = nil)
   if start
     
-    
+    acc = start
+    i = 0
+  else
+    acc
   
   return acc
   
