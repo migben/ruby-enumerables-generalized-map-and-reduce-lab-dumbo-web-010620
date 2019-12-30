@@ -1,2 +1,8 @@
 # Your Code Here
-def map()
+def map(arr)
+  
+  result = []
+  
+  
+  
+end
